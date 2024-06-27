@@ -1,0 +1,186 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navegator {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.navegator nav {
+    display: flex;
+    justify-content: center;
+}
+.navegator ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navegator ul li {
+    float: left;
+}
+.navegator ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navegator ul li a:hover {
+    background-color: #111;
+}
+section {
+    padding: 60px 20px;
+    margin-top: 50px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Section Specific Styles */
+.presentation {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #ffffff;
+}
+.presentation img {
+    border-radius: 100%;
+    width: 15%;
+}
+
+/*Section estudios*/
+#estudios {
+    background-color: #f9f9f9;
+}
+
+.estudios-content{
+    text-align: center;
+}
+
+/*section tecnologias*/
+#tecnologias {
+    background-color: #ffffff;
+}
+
+.tecnologias-content h2{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e7e7e7;
+    padding: 20px;
+    border-radius: 50%;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.tech-item i {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/*section hobbys*/
+#hobbys {
+    background-color: #f9f9f9;
+}
+
+.hobbys-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.hobbys-content h2{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.hobbys-content-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+    gap: 50px; 
+}
+
+.hobby-card {
+    background-color: #e7e7e7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+.hobby-card img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.hobby-card p {
+    margin-top: 10px;
+}
+.hobby-card h2 {
+    margin-bottom: 10px;
+}
+
+/*section proyectos*/
+#proyectos {
+    background-color: #ffffff;
+}
+
+.proyectos-content h2{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.project-card {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.project-card h3 {
+    margin: 0;
+}
+
+/*section idiomas*/
+#idiomas {
+    background-color: #f9f9f9;
+}
